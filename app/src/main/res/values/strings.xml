@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">AppCitas</string>
+    <string name="login_title">Titulo APP</string>
+    <string name="login_subtitle">Gestión de citas</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <string name="dashboard_welcome">¡Buen día!</string>
+    <string name="dashboard_user">"Dr."</string>
+    <string name="appointments_today">Citas Hoy</string>
+    <string name="appointments_pending">Pendientes</string>
+    <string name="appointments_week">Esta Semana</string>
+    <string name="appointments_cancelled">Canceladas</string>
+    <string name="next_appointments">Próximas Citas</string>
+
+    <string name="new_appointment">Nueva Cita</string>
+    <string name="patient_name">Nombre</string>
+    <string name="phone_number">Teléfono</string>
+    <string name="specialty">Tipo</string>
+    <string name="appointment_date">Fecha</string>
+    <string name="appointment_time">Hora</string>
+    <string name="consultation_reason">Descripcion</string>
+    <string name="schedule_appointment">Agendar Cita</string>
+
+    <string name="tab_today">Hoy</string>
+    <string name="tab_week">Semana</string>
+    <string name="tab_month">Mes</string>
+    <string name="filter">FILTRAR</string>
 </resources>
