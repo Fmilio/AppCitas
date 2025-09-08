@@ -28,4 +28,5 @@
     <string name="tab_week">Semana</string>
     <string name="tab_month">Mes</string>
     <string name="filter">FILTRAR</string>
+    <string name="view_all">Ver todo</string>
 </resources>
