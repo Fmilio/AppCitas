@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="com.devst.appcitas">
 
     <application
         android:allowBackup="true"
@@ -10,24 +10,34 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:targetApi="31">
+        android:theme="@style/AppTheme">
 
-        <!-- LoginActivity será la primera pantalla -->
+        <!-- Activity que se lanza al iniciar la app -->
         <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:theme="@style/LoginTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- DashboardActivity disponible para navegar luego del login -->
+        <!-- Dashboard después del login -->
         <activity
             android:name=".DashboardActivity"
-            android:exported="false"/>
+            android:exported="false" />
+
+        <!-- Nueva actividad para registrar citas -->
+        <activity
+            android:name=".ActivityNewAppointment"
+            android:exported="false"
+            android:label="@string/title_activity_new_appointment" />
+
+        <!-- Activity que muestra la lista de citas -->
+        <activity
+            android:name=".AppointmentsActivity"
+            android:exported="false" />
 
     </application>
 
